@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+zappa = "0.5.2"
+flask = "<=1.1.2"
+# You have to install setuptools manually before installing troposphere or the troposphere installation fails
+setuptools = "==57"
+troposphere = "<3"
+requests = "*"
+python-jose = "*"
+flask-login = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
